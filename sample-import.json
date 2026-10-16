@@ -1,0 +1,18 @@
+{
+  "app": "StudyTracker",
+  "version": 1,
+  "nodes": [
+    {
+      "name": "Quant Finance", "emoji": "📈",
+      "children": [
+        {"name": "Options", "children": [
+          {"name": "Put-call parity", "learnedOn": "2026-10-05", "nextRevision": "2026-10-12", "stage": 0, "notes": "C - P = S - K e^{-rT}"},
+          {"name": "Greeks"}
+        ]}
+      ]
+    }
+  ],
+  "logs": [
+    {"date": "2026-10-05", "kind": "learn", "minutes": 45, "note": "Derived parity via replication", "nodePath": "Quant Finance › Options › Put-call parity"}
+  ]
+}
